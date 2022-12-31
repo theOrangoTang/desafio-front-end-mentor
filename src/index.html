@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Um</title>
+    <script src="./home-script.js" defer type="module"></script>
+    <link rel="stylesheet" href="./config.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <main class="main">
+        <section class="container">
+            <div class="container-img">
+                <picture>
+                    <source srcset="./../assets/images/image-product-desktop.jpg" media="(min-width: 820px)">
+                    <img src="./../assets/images/image-product-mobile.jpg" alt="perfum">
+                </picture>
+            </div>
+            <div class="container-info" id="container-info">
+                <div class="container-title" id="container-title">
+                    <p class="sub-title">Perfume</p>
+                    <h1 class="title" id="title"></h1>
+                </div>
+                <div class="description" id="description"></div>
+                <div class="price" id="price">
+                    <div class="current-value" id="current-value"></div>
+                    <span class="previous-value" id="previous-value"></span>
+                </div>
+                <button type="button" class="cart-button">
+                    <span>
+                        <img src="./../assets/images/icon-cart.svg" alt="icone-carrinho">
+                        <p>Add to Cart</p>
+                    </span>
+                </button>
+        </section>
+    </main>
+</body>
+
+</html>
